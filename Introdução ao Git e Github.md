@@ -78,4 +78,9 @@ git  commit -m "nome do projeto"  (quando vai fazer o primeiro arquivo no reposi
 
 git push origin master  (comando utilizado para empurrar oara o servidor o código )
 
-  
+
+Se for criado o repositório no Github, e clonado para o repositório local, porém o arquivo .md foi criado no repositório local para depois realizar o push para o github, começou a dar erro e a solução encontrada foi essa...
+
+git branch -M main 
+git push -u origin main 
+
