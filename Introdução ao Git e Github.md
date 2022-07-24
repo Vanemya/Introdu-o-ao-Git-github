@@ -83,10 +83,27 @@ git push origin master  (comando utilizado para empurrar oara o servidor o códi
 Se for criado o repositório no Github, e clonado para o repositório local, porém o arquivo .md foi criado no repositório local para depois realizar o push para o github, começou a dar erro e a solução encontrada foi essa...
 
 git branch -M main 
-git push -u origin main 
+git push -u origin main
+
+[Link de referência](https://pt.stackoverflow.com/questions/170720/por-que-usar-git-branch-unset-upstream)  
 
 
 
 Quando o versionamento é editado no Github,  e você deseja sincronizar na máquina local é necessário somente o comando:
 
 git pull origin main
+
+
+
+Realizado alteração do nome  da última versão "Gethub" e o correto é "Github".
+
+git init
+
+git add *
+
+git commit -m "Correção do nome utilizado na msg do commit"
+
+git push origin main
+
+
+
